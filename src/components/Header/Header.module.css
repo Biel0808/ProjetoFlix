@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    z-index: 9999; /*cuidar da profudidade do elemento, quanto maior o numero os outro elementos irão passar por baixo*/
 }
 .header span{
     font-size: 2rem;
