@@ -8,8 +8,8 @@ function Header(){
             </Link>
             <nav>
                 <Link to="/">Home</Link>
-                <Link to="/watch">Assistir</Link>
-                <Link to="/search">Buscar</Link>
+                <Link to="/search">Pesquisar</Link>
+                <Link to="/favorite">Favoritos</Link>
             </nav>
         </header>
     );
