@@ -3,12 +3,14 @@ import Header from "../../components/Header";
 import Container from "../../components/Container";
 import VideoList from "../../components/VideoList";
 import Footer from "../../components/Footer";
+import ScrollToTopButton from "../../components/ScrollToTopButton";
 import { useFavoriteContext } from "../../contexts/Favorites";
 
 function Favorites(){
     const {favorite} = useFavoriteContext()
     return(
         <>
+
         <Header/>
         <Container>
            
@@ -17,6 +19,7 @@ function Favorites(){
                 { <VideoList videos={favorite} emptyHeading="Sem favoritos"/> }
            </section>
         </Container>
+        < ScrollToTopButton/>
         <Footer/>
         </>
     );
